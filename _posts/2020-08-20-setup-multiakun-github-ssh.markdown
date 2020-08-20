@@ -60,9 +60,15 @@ Setelah itu tiap kita buat repository baru, kita bisa menggunakan key tersebut u
 
 {% highlight ruby %}
 
+// pertama -tama kita buat dahulu remote origin
+$> git remote add origin https://github.com/username/repository.git
+
+// kemudian kita set url
 $> git remote set-url origin github-akun1:username/repository.git
 
 // username diganti dengan username akun anda, begitu juga dengan repository.
+// lalu untuk mengpush respitory lokal kita ke github
+$> git push origin master
 
 {% endhighlight %}
 
