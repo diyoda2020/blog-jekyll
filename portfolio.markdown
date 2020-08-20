@@ -4,4 +4,4 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-![Master Yoda](/blog-jekyll/assets/sleeping-cartoon.jpg)
+![Master Yoda](/assets/sleeping-cartoon.jpg)
