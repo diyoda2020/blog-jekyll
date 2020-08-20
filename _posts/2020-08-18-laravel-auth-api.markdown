@@ -310,4 +310,4 @@ Route::group(['prefix' => 'v1/user','middleware' => 'auth:api'], function() {
 
 Demikian Tutorial dari saya, semoga bermanfaat, apabila ada yang kurang jelas, anda bisa menonton video tentang ini melalui link di bawah ini :
 
-{% include youtubePlayer.html id=page.youtubeId %}
+<!-- {% include youtubePlayer.html id=page.youtubeId %} -->
