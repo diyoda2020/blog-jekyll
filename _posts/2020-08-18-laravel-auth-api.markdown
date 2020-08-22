@@ -3,7 +3,7 @@ layout: post
 title:  "Tutorial Backend Laravel 7 Auth API Menggunakan Passport"
 date:   2020-08-18 09:00:04 +0700
 categories: Laravel Auth
-youtubeId: Bis5AykCH4M
+youtubeId: DhPLHyPwOhc
 ---
 Sebelum kita menuju inti dari tutorial ini, kita lakukan instalasi laravel di lokal environment
 komputer kita, dengan perintah sbb :
@@ -154,7 +154,7 @@ Lalu kita modifikasi api driver dari token menjadi passport pada file config/aut
 
 {% endhighlight %}
 
-untuk emndapatkan token pertama kali dan token setelah login, kita buat trait untuk menampung function seperti yang di contohkan pada dokumentasi Passport, kita beri nama trait tersebut PassportTokenTraits, berikut isi file traitnya :
+untuk mendapatkan token pertama kali dan token setelah login (refresh token), kita buat trait untuk menampung function seperti yang di contohkan pada dokumentasi Passport, kita beri nama trait tersebut PassportTokenTraits, berikut isi file traitnya :
 
 
 {% highlight php %}
@@ -310,4 +310,4 @@ Route::group(['prefix' => 'v1/user','middleware' => 'auth:api'], function() {
 
 Demikian Tutorial dari saya, semoga bermanfaat, apabila ada yang kurang jelas, anda bisa menonton video tentang ini melalui link di bawah ini :
 
-<!-- {% include youtubePlayer.html id=page.youtubeId %} -->
+{% include youtubePlayer.html id=page.youtubeId %}
